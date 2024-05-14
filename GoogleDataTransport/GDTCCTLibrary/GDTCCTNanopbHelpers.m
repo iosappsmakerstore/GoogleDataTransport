@@ -176,7 +176,7 @@ gdt_cct_ClientInfo GDTCCTConstructClientInfo(void) {
   return clientInfo;
 }
 
-gdt_cct_IosClientInfo GDTCCTConstructiOSClientIvoidnfo(void) {
+gdt_cct_IosClientInfo GDTCCTConstructiOSClientInfo(void) {
   gdt_cct_IosClientInfo iOSClientInfo = gdt_cct_IosClientInfo_init_default;
 #if TARGET_OS_IOS || TARGET_OS_TV
   UIDevice *device = [UIDevice currentDevice];
